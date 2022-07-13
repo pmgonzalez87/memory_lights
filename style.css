@@ -1,10 +1,32 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .light_container {
     width: 150px;
     height: 150px;
-    display: inline-block;
+    margin: 10px;
+    box-shadow: 5px 5px red;
+}
+
+.row_of_lights {
+    display: flex;
+    justify-content: center;
 }
 
 .light_bulb {
     width: 100%;
     height: 100%;
+    border-radius: 25px;
+}
+
+.bg_image {
+    background-image: url(./5183000.jpg);
+}
+section {
+    border: 10px;
+    background-color: black;
 }
