@@ -1,15 +1,8 @@
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .light_container {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 100%;
     margin: 10px;
-    box-shadow: 5px 5px red;
+    box-shadow: 0 0 12px rgb(0, 72, 255);
 }
 
 .row_of_lights {
@@ -20,13 +13,17 @@ body {
 .light_bulb {
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 10px;
+    border: 5px;
 }
 
 .bg_image {
-    background-image: url(./5183000.jpg);
+    background-image: url(./watercolor.jpg);
 }
-section {
-    border: 10px;
-    background-color: black;
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
